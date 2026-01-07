@@ -19,8 +19,4 @@ Current Computational Models of Emotion (CMEs) often operate as isolated systems
     * **Table VII**: Comprehensive listings of affective labels and theories extracted per model (ALMA, EEGS, EMIA, FLAME, EMA).
     * **Table VIII**: Unified list of variability scenarios used for the semantic matching validation in Case Study 2.
 
-## License
-This project is licensed under the MIT License.
 
----
-*Contact: Enrique Osuna-Cuen*
