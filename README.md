@@ -15,8 +15,8 @@ Current Computational Models of Emotion (CMEs) often operate as isolated systems
 
 * **[FRAMEWORKV7_(English).py](FRAMEWORKV7_(English).py)**: The main Python implementation containing the core modules (Central Executive, Semantic Controller, and Execution Coordinator).
 * **[CMEs_ontology.owl](CMEs_ontology.owl)**: The formal OWL ontology file containing the 139 affective elements used for semantic alignment.
-* **[Supplementary_Material_Tables.pdf](Supplementary_Material_Tables.pdf)**: Detailed reference data excluded from the main manuscript due to length constraints. This document includes:
-    * **Table VII**: Comprehensive listings of affective labels and theories extracted per model (ALMA, EEGS, EMIA, FLAME, EMA).
-    * **Table VIII**: Unified list of variability scenarios used for the semantic matching validation in Case Study 2.
+* **[Supplementary_Material_Tables.pdf](Supplementary_Material_Tables.pdf)**: This document includes:
+    * **Table I**: Comprehensive listings of affective labels and theories extracted per model (ALMA, EEGS, EMIA, FLAME, EMA).
+    * **Table II**: Unified list of variability scenarios used for the semantic matching validation in Case Study 2.
 
 
