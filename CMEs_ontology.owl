@@ -1,0 +1,1659 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#"
+     xml:base="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_Component_Theory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_Component_Theory">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#component"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_Input -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_Input"/>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_alma_category -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_alma_category">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#alma"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#anxious"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#bored"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#dependent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#disdainful"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#docile"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#exuberant"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#hostile"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#relaxed"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_ekman_category -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_ekman_category">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#ekman"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#anger"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#disgust"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#fear"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#happiness"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#sadness"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#surprise"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_frijda_cateogy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_frijda_cateogy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#frijda"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#anger"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#arrogance"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#desire"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#disgust"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#enjoyment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#fear"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#humility"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#indifference"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#interest"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#resignation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#shock"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#surprise"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_fsre_category -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_fsre_category">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#fsre"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#anger"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#anxiety"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#being_hurt"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#compassion"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#contempt"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#contentment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#despair"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#disappointment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#disgust"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#fear"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#guilt"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#happiness"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#hate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#interest"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#irritation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#jealousy"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#joy"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#love"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#pleasure"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#pride"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#sadness"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#shame"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#stress"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#surprise"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_izard_category -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_izard_category">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#izard"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#anger"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#contempt"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#disgust"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#fear"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#guilt"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#interest"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#joy"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#sadness"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#shame"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#surprise"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_lambie_variable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_lambie_variable">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#lambie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#phenomenological_appraisal"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_lazarus_variable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_lazarus_variable">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#lazarus"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#accountability"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion_focused_coping_potential"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#future_expectancy"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#motivational_congruence"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#motivational_relevance"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#problem_focused_coping_potential"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_occ_category -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_occ_category">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#occ"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#admiration"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#anger"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#disappointment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#distress"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#fear"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#fears_confirmed"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#gloating"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#gratification"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#gratitude"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#happy_for"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#hate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#hope"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#joy"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#love"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#pity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#pride"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#relief"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#remorse"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#reproach"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#resentment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#satisfaction"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#shame"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_occ_variable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_occ_variable">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#occ"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#appealingness"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#blameworthiness"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#causal_attribution"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#changeability"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#controllability"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#desirability"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#expectedness"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#likelihood"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#praiseworthiness"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#relevance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_output -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_output"/>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_pad_variable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_pad_variable">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#pad"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#arousal"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#dominance"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#pleasure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_plutchik_category -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_plutchik_category">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#plutchik"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#aggressiveness"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#anger"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#anticipation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#awe"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#contempt"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#curiosity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#cynicism"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#delight"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#despair"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#disapproval"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#disgust"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#envy"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#fear"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#hope"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#joy"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#love"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#optimism"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#outrage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#pride"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#remorse"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#sadness"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#submission"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#surprise"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#trust"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_roseman_variable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_roseman_variable">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#roseman"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#agency"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#legitimacy"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#motivational_state"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#probability"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#situational_state"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_scherer_category -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_scherer_category">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#scherer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#admiration"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#amusement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#anger"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#anxiety"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#awe"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#being_touched"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#boredom"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#compassion"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#contempt"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#contentment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#desperation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#disappointment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#disgust"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#dissatisfaction"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#enjoyment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#enthusiasm"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#envy"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#fear"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#feeling"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#gratitude"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#guilt"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#happiness"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#hatred"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#hope"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#humility"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#interest"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#irritation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#jealousy"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#joy"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#longing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#lust"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#negative"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#pleasure"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#positive"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#pride"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#relaxation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#relief"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#sadness"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#serenity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#shame"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#stress"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#surprise"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#tension"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_scherer_variable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_scherer_variable">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#scherer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#adjustment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#cause_agent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#cause_motive"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#conduciveness"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#control"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#discrepancy_from_expectation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#external_standards_compatibility"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#familiarity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#goal_relevance"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#internal_standards_compatibility"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#intrinsic_pleasantness"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#novelty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#outcome_probability"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#power"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#predictability"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#suddenness"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#urgency"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_valence_arousal_variable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_valence_arousal_variable">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#valence_arousal"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#arousal"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#valence"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#appraisal_variable -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#appraisal_variable">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#accountability"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#adjustment"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#agency"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#appealingness"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#blameworthiness"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#causal_attribution"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#cause_agent"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#cause_motive"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#changeability"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#conduciveness"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#control"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#controllability"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#desirability"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#discrepancy_from_expectation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion_focused_coping_potential"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#expectedness"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#external_standards_compatibility"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#familiarity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#future_expectancy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#goal_relevance"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#internal_standards_compatibility"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#intrinsic_pleasantness"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#legitimacy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#likelihood"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#motivational_congruence"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#motivational_relevance"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#motivational_state"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#novelty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#outcome_probability"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#power"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#praiseworthiness"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#predictability"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#probability"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#problem_focused_coping_potential"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#relevance"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#situational_state"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#suddenness"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#urgency"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_ComponentID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_ComponentID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#component"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_Timestamp -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#has_Timestamp">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#component"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#accountability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#accountability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#action_tendency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#action_tendency"/>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#adjustment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#adjustment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#admiration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#admiration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#affective_state -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#affective_state"/>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#affiliation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#affiliation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#action_tendency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#agency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#agency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#aggressiveness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#aggressiveness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#alma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#alma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion_theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#amusement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#amusement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#anger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#anger">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#anticipation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#anticipation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#anxiety -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#anxiety">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#anxious -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#anxious">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#mood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#appealingness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#appealingness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#approach -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#approach">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#action_tendency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#arousal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#arousal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#arrogance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#arrogance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#attack -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#attack">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#action_tendency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#avoidance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#avoidance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#action_tendency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#awe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#awe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#being_hurt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#being_hurt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#being_touched -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#being_touched">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#blameworthiness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#blameworthiness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#bored -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#bored">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#mood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#boredom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#boredom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#causal_attribution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#causal_attribution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#cause_agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#cause_agent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#cause_motive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#cause_motive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#changeability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#changeability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#compassion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#compassion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#component -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#component"/>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#conduciveness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#conduciveness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#contempt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#contempt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#contentment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#contentment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#controllability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#controllability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#curiosity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#curiosity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#cynicism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#cynicism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#delight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#delight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#dependent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#dependent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#mood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#desirability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#desirability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#desire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#desire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#despair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#despair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#desperation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#desperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#disappointment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#disappointment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#disapproval -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#disapproval">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#discrepancy_from_expectation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#discrepancy_from_expectation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#disdainful -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#disdainful">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#mood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#disgust -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#disgust">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#dissatisfaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#dissatisfaction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#distress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#distress">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#docile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#docile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#mood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#dominance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#dominance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#ekman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#ekman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion_theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#affective_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion_focused_coping_potential -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion_focused_coping_potential">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion_theory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion_theory"/>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#enjoyment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#enjoyment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#enthusiasm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#enthusiasm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#envy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#envy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#expectedness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#expectedness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#exploration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#exploration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#action_tendency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#external_standards_compatibility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#external_standards_compatibility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#exuberant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#exuberant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#mood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#familiarity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#familiarity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#fear -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#fear">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#fears_confirmed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#fears_confirmed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#feeling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#feeling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#freezing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#freezing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#action_tendency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#frijda -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#frijda">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion_theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#fsre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#fsre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion_theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#future_expectancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#future_expectancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#gloating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#gloating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#goal_relevance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#goal_relevance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#gratification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#gratification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#gratitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#gratitude">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#guilt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#guilt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#happiness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#happiness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#happy_for -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#happy_for">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#hate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#hate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#hatred -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#hatred">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#hope -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#hope">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#hostile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#hostile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#mood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#humility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#humility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#indifference -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#indifference">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#intensity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#intensity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#interest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#interest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#internal_standards_compatibility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#internal_standards_compatibility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#intrinsic_pleasantness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#intrinsic_pleasantness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#irritation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#irritation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#izard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#izard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion_theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#jealousy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#jealousy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#joy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#joy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#lambie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#lambie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion_theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#lazarus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#lazarus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion_theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#legitimacy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#legitimacy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#likelihood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#likelihood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#longing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#longing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#love -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#love">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#lust -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#lust">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#maintenance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#maintenance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#action_tendency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#mood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#mood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#affective_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#motivational_congruence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#motivational_congruence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#motivational_relevance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#motivational_relevance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#motivational_state -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#motivational_state">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#negative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#negative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#novelty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#novelty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#occ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#occ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion_theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#optimism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#optimism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#outcome_probability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#outcome_probability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#outrage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#outrage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#pad -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#pad">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion_theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#phenomenological_appraisal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#phenomenological_appraisal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#pity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#pity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#play -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#play">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#action_tendency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#pleasure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#pleasure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#plutchik -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#plutchik">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion_theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#positive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#positive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#power -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#power">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#praiseworthiness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#praiseworthiness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#predictability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#predictability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#pride -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#pride">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#probability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#probability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#problem_focused_coping_potential -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#problem_focused_coping_potential">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#relaxation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#relaxation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#relaxed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#relaxed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#mood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#relevance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#relevance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#relief -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#relief">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#remorse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#remorse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#reproach -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#reproach">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#resentment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#resentment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#resignation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#resignation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#roseman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#roseman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion_theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#sadness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#sadness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#satisfaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#satisfaction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#scherer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#scherer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion_theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#serenity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#serenity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#shame -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#shame">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#shock -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#shock">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#situational_state -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#situational_state">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#stimulus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#stimulus"/>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#stress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#stress">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#submission -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#submission">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#action_tendency"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#suddenness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#suddenness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#surprise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#surprise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#tension -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#tension">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#trust -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#trust">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#urgency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#urgency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#valence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#valence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#valence_arousal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#valence_arousal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#emotion_theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#variable"/>
+    
+
+
+    <!-- http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#withdrawal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#withdrawal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/enriqueosuna/ontologies/2024/5/CMEs_ontology#action_tendency"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
